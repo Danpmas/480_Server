@@ -1,0 +1,23 @@
+********************************************************************************
+product = Open Liberty 24.0.0.9 (wlp-1.0.93.cl241020240827-1743)
+wlp.install.dir = /Users/danmas/Documents/GitHub/480_Server/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+java.version = 21.0.4
+java.runtime = OpenJDK Runtime Environment (21.0.4+7-LTS)
+os = Mac OS X (15.0; x86_64) (en_US)
+process = 6716@Mac
+Classpath = /Users/danmas/Documents/GitHub/480_Server/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/danmas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[10/4/24, 12:19:50:285 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[10/4/24, 12:19:51:415 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.646 seconds
+[10/4/24, 12:19:51:415 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/4/24, 12:19:51:452 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for microprofile-6.1
+[10/4/24, 12:19:51:452 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for jakartaee-10.0
+[10/4/24, 12:19:51:507 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [].
+[10/4/24, 12:19:51:508 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 0.100 seconds.
+[10/4/24, 12:19:51:509 EDT] 00000038 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 1.744 seconds.
+[10/4/24, 12:19:56:705 EDT] 0000001c com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Friday, October 4, 2024 at 12:19 PM. The server defaultServer is shutting down.
+[10/4/24, 12:19:56:716 EDT] 0000004e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/4/24, 12:19:56:724 EDT] 0000004e com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/4/24, 12:19:56:888 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 7.123 seconds.
